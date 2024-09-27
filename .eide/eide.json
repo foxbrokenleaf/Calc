@@ -1,0 +1,66 @@
+{
+  "name": "project",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [
+    "Device"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Source Group 1",
+        "files": [
+          {
+            "path": "STARTUP.A51"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "User/main.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "2e6ac484689aeeefd88429f0079a5673"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "Keil_C51",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../Develop/Keil5/C51/INC/STC",
+          "User",
+          "Device"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
